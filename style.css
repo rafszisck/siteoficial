@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color:#828284;
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 22px 22px;
+    z-index: 1;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block; 
+    margin: 0 12px;
+    font-size: 15px;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.escola-imagem{
+    width: 20%;
+}
+
+.escola{
+    background-image: linear-gradient(#828284,#B2B1B1);
+    color: aliceblue;
+    display: flex;
+    justify-content:center;
+    align-items: flex;
+    padding: 20px 0;
+}
+
+.escola-div-conteudo{
+    width: 30%;
+}
+
+.escola-titulo{
+    padding: 28px 0;
+    font-family: 'Caprasimo', cursive;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.emilio-de-menezes{
+    background-image: linear-gradient(#B2B1B1,#8d8989);
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    padding: 20px 0;
+}
+
+.emiliotitulo{
+    padding: 28px 0;
+    font-family: 'Caprasimo', cursive;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.emilio-de-menezes-div-conteudo{
+    width: 30%;
+}
+
+.imagem-emilio{
+    width: 10%;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+.estudantes{
+    text-align: center;
+}
+
+.estudante-título{
+    padding: 50px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #8d8989;
+    color: #CECDCD;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: 'Caprasimo', cursive;
+    padding: 40px 12px;
+    background-color:#8d8989;
+    color: #CECDCD;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.rodapé{
+    background-color: #828284;
+    text-align: center;
+    padding: 22px 22px;
+}
+
+.rodapé-imagem{
+    height: 70px;
+}
